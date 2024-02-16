@@ -45,6 +45,7 @@ textarea {
   --LINK-COLOR: hsla(0,0%,0%, 0.6);
   --LINK-HOVER: #9ACD32;
   --NAV-BGCOLOR: rgb(51,178,51);
+  --DESCRIPTION: rgb(51,178,51);
 
   /* BORDERS */
 --BORDERS: 1px solid var(--BORDER-COLOR);
@@ -69,12 +70,13 @@ textarea {
     --BUTTON-COLOR: #000000;
     --FONT-COLOR: whitesmoke;
     --HEADER-COLOR: whitesmoke;
-    --HERO-COLOR: #333333;
+    --HERO-COLOR: whitesmoke;
     --HIGHLIGHT-COLOR: whitesmoke;
     --LINK-ACTIVE: rgb(252, 200, 103);
     --LINK-COLOR: whitesmoke;
     --LINK-HOVER: orange;
     --NAV-BGCOLOR: rgb(20, 20, 20);
+    --DESCRIPTION: #333333;
   }
 }
 
@@ -397,7 +399,7 @@ infinite;
 .box .description {
   padding: 10px;
   text-align: center;
-  color: var(--HIGHLIGHT-COLOR);
+  color: var(--DESCRIPTION);
 }
 .box:hover {
   color: hsl(120, 75%, 55%);
